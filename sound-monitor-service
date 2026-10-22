@@ -1,0 +1,15 @@
+[Unit]
+Description=Server Monitoring Suara Berbasis Web
+After=network.target sound.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root
+ExecStartPre=/bin/sleep 30
+ExecStart=/root/venv/bin/python /root/server.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
