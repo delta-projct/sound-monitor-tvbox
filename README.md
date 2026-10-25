@@ -9,5 +9,5 @@ Sistem pemantauan suara otomatis (headless) berbasis TV Box Armbian menggunakan 
   ## Teknologi yang digunakan
   * PYthon3
   * Flask (Web Server)
-  * WebRTC VAD (Voive Activity Detection)
+  * WebRTC VAD (Voice Activity Detection)
   * Armbian OS/Linux
